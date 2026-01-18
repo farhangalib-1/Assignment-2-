@@ -1,0 +1,64 @@
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1A0B2E ;
+    color: #ffffff;
+}
+hr{
+    background-color: #412567;
+}
+
+nav{
+    max-width: 1200px;
+    margin: 24px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 32px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 120%;
+}
+nav h1{
+    max-width: 219px;
+    font-weight: 800;
+}
+nav h1 span{
+    background-image: linear-gradient(to top, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+nav button{
+    width: 135px;
+    padding: 12px 16px;
+    border-radius: 10000px;
+    border: none;
+    background: linear-gradient(to left, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: #ffffff;
+}
+.hr-part{
+    border: 1px solid #412567;
+}
