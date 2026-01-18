@@ -181,6 +181,7 @@ hr{
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 .why-choose h1{
     text-align: center;
@@ -300,7 +301,6 @@ hr{
 
 .episode{
     max-width: 1200px;
-    border: 1px solid white;
     margin: 0 auto;
     padding-top: 120px;
 }
